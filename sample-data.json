@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Chinatown Gate" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.406417, 37.790201]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Golden Gate Fortune Cookie Factory" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.406924, 37.794183]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Portsmouth Square" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.405394, 37.794574]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Tin How Temple" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.406032, 37.794802]
+      }
+    }
+  ]
+}
