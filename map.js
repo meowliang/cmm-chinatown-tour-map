@@ -43,7 +43,7 @@ function createNumberedMarker(map, position, number) {
   function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
       center: { lat: 37.7941, lng: -122.4067 },
-      zoom: 18,
+      zoom: 17,
       mapId: "e8f9fe15ae85b0f5"
     });
   
