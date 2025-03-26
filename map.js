@@ -58,38 +58,3 @@ function createNumberedMarker(map, position, number) {
   createNumberedMarker(map, { lat: 37.7925496, lng: -122.4059060 }, "8");  // Grant and California
   createNumberedMarker(map, { lat: 37.7923649, lng: -122.4055921 }, "9");  // Saint Mary's Square Steps
   }
-
-
-
-// function initMap() {
-//     const map = new google.maps.Map(document.getElementById("map"), {
-//         center: { lat: 37.794183, lng: -122.406924 },
-//         zoom: 16,
-//         styles: [
-//             { elementType: "geometry", stylers: [{ color: "#81C7D3" }] },
-//             { elementType: "labels.text.fill", stylers: [{ color: "#192F4A" }] },
-//             { elementType: "labels.text.stroke", stylers: [{ color: "#FFFDEC" }] },
-//             { featureType: "road", elementType: "geometry", stylers: [{ color: "#FFFDEC" }] },
-//             { featureType: "poi", stylers: [{ visibility: "off" }] },
-//             { featureType: "transit", stylers: [{ visibility: "off" }] },
-//             { featureType: "water", stylers: [{ visibility: "off" }] }
-//         ]
-//     });
-
-//     fetch("sample-data.json")
-//         .then(response => response.json())
-//         .then(data => {
-//             map.data.addGeoJson(data);
-//             map.data.setStyle({
-//                 icon: {
-//                         path: google.maps.SymbolPath.CIRCLE,
-//                         scale: 8,
-//                         fillColor: "#192F4A", // Your navy color
-//                         fillOpacity: 1,
-//                         strokeWeight: 1,
-//                         strokeColor: "#FFFDEC" // Optional stroke color
-//                     },
-//                 title: feature => feature.getProperty("name")
-//             });
-//         });
-// }
