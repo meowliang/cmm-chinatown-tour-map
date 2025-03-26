@@ -42,14 +42,21 @@ function createNumberedMarker(map, position, number) {
   // Initialize the map
   function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
-      center: { lat: 37.7941, lng: -122.4078 },
-      zoom: 15,
+      center: { lat: 37.7941, lng: -122.4067 },
+      zoom: 18,
       mapId: "e8f9fe15ae85b0f5"
     });
   
-    // Add numbered markers
-    createNumberedMarker(map, { lat: 37.7941, lng: -122.4078 }, "1");
-    createNumberedMarker(map, { lat: 37.7965, lng: -122.4068 }, "2");
+  // Create markers in order (1-9)
+  createNumberedMarker(map, { lat: 37.7952643, lng: -122.4062706 }, "1");  // 754 Washington Street/Start
+  createNumberedMarker(map, { lat: 37.7951077, lng: -122.4064402 }, "2");  // Corner of Grant and Washington
+  createNumberedMarker(map, { lat: 37.7949850, lng: -122.4074916 }, "3");  // Spofford Alley/Earthquake
+  createNumberedMarker(map, { lat: 37.7941975, lng: -122.4072972 }, "4");  // End of Spofford Alley
+  createNumberedMarker(map, { lat: 37.7941737, lng: -122.4068135 }, "5");  // Clay and Waverly
+  createNumberedMarker(map, { lat: 37.7934711, lng: -122.4067632 }, "6");  // First Chinese Baptist Church
+  createNumberedMarker(map, { lat: 37.7933594, lng: -122.4061739 }, "7");  // Sacramento and Grant
+  createNumberedMarker(map, { lat: 37.7925496, lng: -122.4059060 }, "8");  // Grant and California
+  createNumberedMarker(map, { lat: 37.7923649, lng: -122.4055921 }, "9");  // Saint Mary's Square Steps
   }
 
 
